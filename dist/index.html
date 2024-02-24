@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind css</title>
+    <!-- Link to Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link to your custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="w-full">
+    <nav class="w-full h-20 bg-red-400">
+      <div class="w-2/2 pt-6 px-6 flex justify-between">
+        <div class="flex justify-between w-1/4">
+          <h3 class="font-bold text-white text-2xl">Kalvium</h3>
+          <div
+            class="w-72 font-medium pt-1 px-2 text-lg flex justify-between ..."
+          >
+            <p class="text-gray-500">About us</p>
+            <p class="text-gray-500">Contacts</p>
+            <p class="text-gray-500">Courses</p>
+          </div>
+        </div>
+        <div class="">
+          <button
+            class="px-4 py-1 text-lg text-white font-semibold border border-white-300 rounded-lg hover:text-red-400 hover:bg-white"
+          >
+            LogIn
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="w-10/12 absolute top-28 left-32 m-0 items-center content-center"
+    >
+      <button class="font-semibold rounded-sm bg-blue-500 px-4 py-2 text-white">
+        Button one
+      </button>
+      <div
+        class="w-full bg-red-200 p-3 border-red-600 border-2 mt-9 text-red-700"
+      >
+        <strong>Alert!</strong> This is awesome!
+      </div>
+      <div class="grid place-items-center">
+        <div class="flex items-center border-2 h-24 mt-9 w-80">
+          <img src="/tailwindcss-1/src/kalvium.png" alt="" class="w-16 h-20" />
+          <div>
+            <p class="ml-10 font-medium text-xl mb-1">Kalvium Store</p>
+            <p class="ml-10 mb-2 text-gray-600">You have a new course!</p>
+          </div>
+        </div>
+      </div>
+      <!-- w-72 h-24 bg-red-200 mt-10 -->
+    </div>
+    <div
+    class="w-full absolute bottom-0 p-4 text-center"
+    style="background-color: rgba(18, 18, 18, 0.545)">
+    © 2024 Copyright: <strong>Kalvium</strong>
+  </div>
+  </body>
+</html>
